@@ -14,6 +14,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "growl": "^1.10.5",
+    "http-proxy-agent": "^3.0.0",
+    "https-proxy-agent": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "mem": "^6.0.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "serialize-javascript": "^2.1.2",
@@ -41,7 +47,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
-    "eslint": "^3.19.0",
+    "eslint": "^6.8.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
@@ -75,8 +81,8 @@
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
